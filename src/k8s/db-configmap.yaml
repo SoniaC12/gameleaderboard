@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: leaderboard-config
+  namespace: game-platform
+data:
+  datasource-url: "jdbc:postgresql://postgres:5432/leaderboard_db"
